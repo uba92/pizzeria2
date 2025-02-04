@@ -1,0 +1,21 @@
+package it.epicode.pizzeria2.entities.drinks;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+
+@Component
+public class DrinkRunner implements CommandLineRunner {
+
+    @Autowired
+    List<Drink> listaDrinks;
+
+
+    @Override
+    public void run(String[] args) {
+        for (Drink drink : listaDrinks)
+        System.out.println(drink);
+    }
+}
