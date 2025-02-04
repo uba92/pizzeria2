@@ -6,6 +6,7 @@ import it.epicode.pizzeria2.print.Printable;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,16 +15,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Pizza extends Food  {
-
+    @Autowired
+    private Pizza pizza;
     private List<Topping> toppings = new ArrayList<>();
-
-    @Override
-    public String print() {
-        StringBuilder result = new StringBuilder(super.print());
-        for (Topping topping : toppings) {
-            result.append("\n").append(topping);
-        }
-        return result.toString();
-    }
-
 }
