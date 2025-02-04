@@ -11,5 +11,5 @@ public class Tavolo {
 
     private int numeroTavolo;
     private int maxCoperti;
-    private StatoTavolo stato;
+    private String stato;
 }

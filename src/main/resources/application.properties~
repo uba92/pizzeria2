@@ -5,3 +5,5 @@ logging.level.it.epicode.pizzeria2.runners=INFO
 spring.output.ansi.enabled=always
 logging.pattern.console=%d{yyyy-MM-dd HH:mm:ss} %clr(%-5level){faint} [%thread] %clr(%logger{36}){cyan} - %clr(%msg){green}%n
 
+ideatore.nome= Giuseppe Verdi
+

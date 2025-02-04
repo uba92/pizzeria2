@@ -16,7 +16,5 @@ import java.util.List;
 public class Menu {
 
     private String name;
-    private List<Pizza> pizzas = new ArrayList<>();
-    private List<Drink> drinks = new ArrayList<>();
-    private List<Topping> toppings = new ArrayList<>();
+    private List<VoceMenu> voceMenu = new ArrayList<>();
 }

@@ -21,6 +21,7 @@ public class PizzaConfig {
         p.setName("Margherita");
         p.setDescription("250");
         p.setPrice(9.99);
+        p.getToppings().add(topping);
         return p;
     }
 
@@ -30,6 +31,7 @@ public class PizzaConfig {
         p.setName("Diavola");
         p.setDescription("300");
         p.setPrice(11.99);
+        p.getToppings().add(topping2);
         return p;
 
     }
@@ -40,6 +42,7 @@ public class PizzaConfig {
         p.setName("Prosciutto");
         p.setDescription("350");
         p.setPrice(12.99);
+        p.getToppings().add(topping);
         return p;
     }
 }
