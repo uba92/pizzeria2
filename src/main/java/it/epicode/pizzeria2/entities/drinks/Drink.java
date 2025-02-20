@@ -4,7 +4,7 @@ import it.epicode.pizzeria2.entities.menu.VoceMenu;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-
+//commento aggiunto
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
